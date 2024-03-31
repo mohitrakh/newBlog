@@ -124,6 +124,7 @@ const Write = () => {
           title: blogData.title,
           description: blogData.description,
           poster: blogData.poster,
+          category: blogData.category,
         },
         {
           withCredentials: true,
